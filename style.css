@@ -1,0 +1,101 @@
+/* основное */
+.nav {
+  position: relative;
+  display: inline-block;
+}
+
+.dropmenu {
+  display: none;
+    background-color: black;
+    min-width: 200px;
+}
+
+.dropmenu a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav:hover .dropmenu {
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu {
+  background-color: #EE82EE;
+    color: white;
+    border: 20px;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    font-size: 150%;
+      font-family: Brush Script MT, cursive;
+}
+
+.menu:hover {
+  background-color: #DA70D6;
+  transition: 0.3s ease;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main{
+  background-color: white;
+  width: 63%;
+  height: 400%;
+  border-radius: 20px;
+  margin-left:15%;
+  font-size: 120%;
+}
+
+.sidel {
+  float: left;
+  float: left;
+  width: 15%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.sider {
+  float: right;
+
+}
+
+.sider img{
+  border-radius: 20px;
+}
+
+.footer {
+  text-align: right;
+
+}
+
+html {
+  background-color: #EE82EE;
+  font-family: Brush Script MT, cursive;
+}
+
+@media print {
+
+}
+
+
+/* 2.1 */
+.author {
+  margin-left: 80%;
+  font-size: 140%;
+}
+
+.stih {
+  font-size: 150%;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 180%;
+  margin-bottom: 2%;
+}
